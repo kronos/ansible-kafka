@@ -146,7 +146,7 @@ kafka_server_defaults:
   offsets_topic_num_partitions:
   offsets_topic_retention_minutes:
   offsets_retention_check_interval_ms:
-  offsets_topic_replication_factor:
+  offsets_topic_replication_factor: 2
   offsets_topic_segment_bytes:
   offsets_load_buffer_size:
   offsets_commit_required_acks:
