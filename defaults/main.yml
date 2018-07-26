@@ -79,7 +79,7 @@ kafka_server_defaults:
   advertised_host_name:
   advertised_port:
   advertised_listeners:
-  listeners:
+  listeners: "PLAINTEXT://0.0.0.0:9092"
   socket_send_buffer_bytes: 102400
   socket_receive_buffer_bytes: 102400
   socket_request_max_bytes: 104857600
