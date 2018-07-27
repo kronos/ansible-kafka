@@ -63,7 +63,7 @@ kafka_environment: {}
 
 kafka_healthcheck_address: ""
 
-kafka_server: {}
+user_kafka_server: {}
 
 kafka_server_defaults:
   # broker_id: <-- this is auto-set by hashing the machine-id during kafka-cfg step.
